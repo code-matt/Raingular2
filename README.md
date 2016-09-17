@@ -1,6 +1,7 @@
 # Raingular2
 
-Boilerplate with Angular2(cli,RC5) frontend with a Rails5(5.0.0) Backend in api_only mode.
+Boilerplate with Angular2(2.0.0,CLI) frontend with a Rails5(5.0.0) Backend in api_only mode.
+Has basic signup/login forms and a protected route with username/password authentication provided by JWTs.
 Rails serves the index.html and Angular's router takes over after that.
 
 ## Installation
