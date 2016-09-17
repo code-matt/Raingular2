@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Http, Headers, RequestOptions} from '@angular/http'
 import {AuthHttp, AuthConfig, AUTH_PROVIDERS} from 'angular2-jwt';
+import 'rxjs/add/operator/map'
 
 @Injectable()
 export class ThingService {

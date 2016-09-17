@@ -1,12 +1,10 @@
 import { Component, OnInit } from '@angular/core'
 import { ThingService } from '../../services/thing.service'
 import { AuthService } from '../../services/auth.service'
-import { HTTP_PROVIDERS } from '@angular/http'
 import { Observable } from 'rxjs'
 
 @Component({
   selector: `index-page`,
-  providers: [ThingService,HTTP_PROVIDERS],
   template: `
     <div class="container">
       <div class="row">

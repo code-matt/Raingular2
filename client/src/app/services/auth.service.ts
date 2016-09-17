@@ -3,6 +3,7 @@ import {Http, Headers, RequestOptions} from '@angular/http'
 import { Router } from '@angular/router'
 import {AuthHttp, AuthConfig, AUTH_PROVIDERS} from 'angular2-jwt';
 import 'rxjs/add/operator/toPromise';
+import 'rxjs/add/operator/map'
 
 @Injectable()
 export class AuthService {
@@ -13,6 +14,7 @@ export class AuthService {
   }
 
   authenticate(userCreds) {
+    debugger
     var service:AuthService = this
 
     return new Promise(function(resolve, reject) {
